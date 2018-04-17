@@ -1,0 +1,36 @@
+<div class="latnav col-12 col-sm-12 col-md-12 col-lg-12">
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a data-activates="mobile-menu" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul id="nav-mobile" class="hide-on-med-and-down">
+                <li>
+                    <a class="nav-link" routerLink="/main/forums">Forums</a>
+                </li>
+                <li>
+                    <a class="nav-link" routerLink="/main/myProjects">Projectes</a>
+                </li>
+                <li>
+                    <a class="nav-link" routerLink="/main/app">Aplicació</a>
+                </li>
+            </ul>
+            <ul class="side-nav" id="mobile-menu">
+                <li>
+                    <a class="nav-link" routerLink="/main/forums">Forums</a>
+                </li>
+                <li>
+                    <a class="nav-link" routerLink="/main/myProjects">Projectes</a>
+                </li>
+                <li>
+                    <a class="nav-link" routerLink="/main/app">Aplicació</a>
+                </li>
+            </ul>
+            <ul class="right">
+                <li>
+                    <a (click)="logout()">Sortir</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
